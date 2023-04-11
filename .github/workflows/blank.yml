@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      
+      # Runs a a one-line script with secrets
+      # The secrets.MY_SECRET should be defined in the repository
+      # settings
+      - name: Run a script with secrets
+        run: echo The repository secrets is $MY_SECRET
+          env:
+            MY_SECRET: ${{ secrets.MY_SECRET }}
