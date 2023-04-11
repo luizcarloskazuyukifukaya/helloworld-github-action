@@ -9,5 +9,6 @@ defined.
 
 ## Where the job is executed?
 <b>GitHub platform or Self-hosted by the user</b>
+
 GitHub provides Linux, Windows, and macOS virtual machines to run your workflows, or you can host your own self-hosted runners in your own data center or cloud infrastructure.
 
