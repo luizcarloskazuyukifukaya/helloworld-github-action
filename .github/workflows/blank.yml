@@ -39,6 +39,6 @@ jobs:
       # The secrets.MY_SECRET should be defined in the repository
       # settings
       - name: Run a script with secrets
-        run: echo The repository secrets is $MY_SECRET
+        run: echo "The repository secrets is $MY_SECRET"
         env:
           MY_SECRET: ${{ secrets.MY_SECRET }}
