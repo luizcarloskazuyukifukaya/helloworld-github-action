@@ -40,5 +40,5 @@ jobs:
       # settings
       - name: Run a script with secrets
         run: echo The repository secrets is $MY_SECRET
-          env:
-            MY_SECRET: ${{ secrets.MY_SECRET }}
+        env:
+          MY_SECRET: ${{ secrets.MY_SECRET }}
